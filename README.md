@@ -5,7 +5,7 @@
 [![PyPI platforms][pypi-platforms]][pypi-link]
 [![Scikit-HEP][sk-badge]](https://scikit-hep.org/)
 
-Sub-package to hold data (fonts) for [mplhep](https://github.com/scikit-hep/mplhep).    
+Sub-package to hold data (fonts) for [mplhep](https://github.com/scikit-hep/mplhep).
 
 [actions-badge]:            https://github.com/Scikit-HEP/mplhep_data/workflows/CI/badge.svg
 [actions-link]:             https://github.com/Scikit-HEP/mplhep_data/actions
@@ -25,9 +25,9 @@ Sub-package to hold data (fonts) for [mplhep](https://github.com/scikit-hep/mplh
 [sk-badge]:                 https://scikit-hep.org/assets/images/Scikit--HEP-Project-blue.svg
 
 ## Fonts
-Fonts distributed in this package have open licenses and can be redistributed. While it 
+Fonts distributed in this package have open licenses and can be redistributed. While it
 would be preferable to download the files from their original repositories, there is no
-convenient way to do that due to varying repo structures. The following fonts are 
+convenient way to do that due to varying repo structures. The following fonts are
 included:
 
 #### Tex Gyre Heros

@@ -1,18 +1,11 @@
 # mplhep_data
-
 [![Actions Status][actions-badge]][actions-link]
-[![Documentation Status][rtd-badge]][rtd-link]
-[![Code style: black][black-badge]][black-link]
-
 [![PyPI version][pypi-version]][pypi-link]
 [![Conda-Forge][conda-badge]][conda-link]
 [![PyPI platforms][pypi-platforms]][pypi-link]
-
-[![GitHub Discussion][github-discussions-badge]][github-discussions-link]
-[![Gitter][gitter-badge]][gitter-link]
 [![Scikit-HEP][sk-badge]](https://scikit-hep.org/)
 
-
+Sub-package to hold data (fonts) for [mplhep](https://github.com/scikit-hep/mplhep).    
 
 [actions-badge]:            https://github.com/Scikit-HEP/mplhep_data/workflows/CI/badge.svg
 [actions-link]:             https://github.com/Scikit-HEP/mplhep_data/actions
@@ -30,3 +23,18 @@
 [rtd-badge]:                https://readthedocs.org/projects/mplhep_data/badge/?version=latest
 [rtd-link]:                 https://mplhep_data.readthedocs.io/en/latest/?badge=latest
 [sk-badge]:                 https://scikit-hep.org/assets/images/Scikit--HEP-Project-blue.svg
+
+## Fonts
+Fonts distributed in this package have open licenses and can be redistributed. While it 
+would be preferable to download the files from their original repositories, there is no
+convenient way to do that due to varying repo structures. The following fonts are 
+included:
+
+#### Tex Gyre Heros
+https://ctan.org/pkg/tex-gyre-heros?lang=en
+
+#### Fira Sans
+https://github.com/mozilla/Fira
+
+#### Fira Math
+https://github.com/firamath/firamath

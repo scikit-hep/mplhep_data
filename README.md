@@ -2,7 +2,6 @@
 [![Actions Status][actions-badge]][actions-link]
 [![PyPI version][pypi-version]][pypi-link]
 [![Conda-Forge][conda-badge]][conda-link]
-[![PyPI platforms][pypi-platforms]][pypi-link]
 [![Scikit-HEP][sk-badge]](https://scikit-hep.org/)
 
 Sub-package to hold data (fonts) for [mplhep](https://github.com/scikit-hep/mplhep).
@@ -18,7 +17,6 @@ Sub-package to hold data (fonts) for [mplhep](https://github.com/scikit-hep/mplh
 [gitter-badge]:             https://badges.gitter.im/https://github.com/Scikit-HEP/mplhep_data/community.svg
 [gitter-link]:              https://gitter.im/https://github.com/Scikit-HEP/mplhep_data/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge
 [pypi-link]:                https://pypi.org/project/mplhep_data/
-[pypi-platforms]:           https://img.shields.io/pypi/pyversions/mplhep_data
 [pypi-version]:             https://badge.fury.io/py/mplhep_data.svg
 [rtd-badge]:                https://readthedocs.org/projects/mplhep_data/badge/?version=latest
 [rtd-link]:                 https://mplhep_data.readthedocs.io/en/latest/?badge=latest

@@ -29,7 +29,10 @@ convenient way to do that due to varying repo structures. The following fonts ar
 included:
 
 #### Tex Gyre Heros
-https://ctan.org/pkg/tex-gyre-heros?lang=en
+https://ctan.org/pkg/tex-gyre-heros
+
+#### Tex Gyre Termes
+https://ctan.org/pkg/tex-gyre-termes
 
 #### Fira Sans
 https://github.com/mozilla/Fira

@@ -30,7 +30,12 @@ jobs:
       fail-fast: false
       matrix:
         python-version: ["3.8", "3.12"]
-        runs-on: [ubuntu-latest, macos-13, windows-latest, macos-14]
+        runs-on: [ubuntu-latest, macos-13, windows-latest]
+        include:
+          - python-version: "3.12"
+            runs-on: macos-14
+
+
 
 
 

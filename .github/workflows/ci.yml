@@ -37,7 +37,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - uses: actions/setup-python@v51
+    - uses: actions/setup-python@v1
       with:
         python-version: ${{ matrix.python-version }}
 

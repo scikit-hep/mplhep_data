@@ -27,7 +27,7 @@ repos:
   - id: isort
 
 - repo: https://github.com/asottile/pyupgrade
-  rev: v3.15.2
+  rev: v3.16.0
   hooks:
   - id: pyupgrade
     args: ["--py36-plus"]
@@ -59,7 +59,7 @@ repos:
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
   # Ruff version.
-  rev: v0.4.7
+  rev: v0.4.8
   hooks:
     # Run the linter.
     - id: ruff

@@ -39,7 +39,7 @@ repos:
     args: [--include-version-classifiers, --min-py3-version=3.8, --max-py-version=3.12]
 
 - repo: https://github.com/pycqa/flake8
-  rev: 7.0.0
+  rev: 7.1.0
   hooks:
   - id: flake8
     exclude: docs/conf.py
@@ -59,7 +59,7 @@ repos:
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
   # Ruff version.
-  rev: v0.4.8
+  rev: v0.4.9
   hooks:
     # Run the linter.
     - id: ruff

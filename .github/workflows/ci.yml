@@ -65,19 +65,28 @@ jobs:
 
     - uses: actions/upload-artifact@v4
       with:
+        name: Packages
         path: dist
 
   publish:
     needs: [dist]
-    environment: release
+    environment: pypi
     permissions:
       id-token: write
+      attestations: write
+      contents: read
     runs-on: ubuntu-latest
     if: github.event_name == 'release' && github.event.action == 'published'
+
     steps:
       - uses: actions/download-artifact@v4
         with:
           name: Packages
           path: dist
+
+      - name: Generate artifact attestation for sdist and wheel
+        uses: actions/attest-build-provenance@v1.4.3
+        with:
+          subject-path: "dist/*"
 
       - uses: pypa/gh-action-pypi-publish@release/v1

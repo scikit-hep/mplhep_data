@@ -52,14 +52,14 @@ repos:
     files: src
 
 - repo: https://github.com/mgedmin/check-manifest
-  rev: "0.50"
+  rev: "0.51"
   hooks:
   - id: check-manifest
     stages: [manual]
 
 - repo: https://github.com/astral-sh/ruff-pre-commit
   # Ruff version.
-  rev: v0.14.0
+  rev: v0.14.1
   hooks:
     # Run the linter.
     - id: ruff

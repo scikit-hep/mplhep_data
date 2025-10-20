@@ -36,7 +36,7 @@ repos:
   rev: v3.1.0
   hooks:
   - id: setup-cfg-fmt
-    args: [--include-version-classifiers, --min-py-version=3.8, --max-py-version=3.12]
+    args: [--include-version-classifiers, --min-py-version=3.8, --max-py-version=3.14]
 
 - repo: https://github.com/pycqa/flake8
   rev: 7.3.0
